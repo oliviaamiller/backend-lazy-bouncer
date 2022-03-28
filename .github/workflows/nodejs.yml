@@ -19,3 +19,5 @@ jobs:
         CI: true
         DATABASE_URL: postgres://alchemy:alchemy@postgres:5432/alchemy
         JWT_SECRET: ${{ secrets.thisisthesecretjwtjwt }}
+        COOKIE_NAME: ${{ secrets.session }}
+        SALT_ROUNDS: ${{ secrets.10 }}
