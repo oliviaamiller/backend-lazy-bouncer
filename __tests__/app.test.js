@@ -4,7 +4,7 @@ const request = require('supertest');
 const app = require('../lib/app');
 const UserService = require('../lib/services/UserService');
 
-// Dummy user for testingg
+// Dummy user for testing
 const mockUser = {
   firstName: 'Test',
   lastName: 'User',
